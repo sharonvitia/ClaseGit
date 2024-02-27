@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--por ahora lo que esta dentro del scrip es codigo js directamente ingresado en html-->
+    <script>
+        var x=10;
+        var y=20;
+        var suma=x+y;
+        console.log('Suma: ' +suma);
+    </script>
+</head>
+<body>
+<script>
+    var nombre;
+    var edad;
+    //para solicitar valores por pantalla se debe utilizar la instruccion prompt
+    nombre = prompt('Ingrese su nombre: ');
+    edad = prompt('Ingrese su edad: ');
+    //Para imprimir en la pantalla se utiliza la instruccion document.write
+    document.write('Su nombre es: '+nombre);
+    document.write('<br> Su Edad es: '+edad);
+    //para imprimir un mensaje dependiendo de su edad debemos incluir en el scrip la condicional que nos permitira discriminar la respuesta, para esto usaremos el metodo "if- else"
+    if(edad<18){
+        document.write('Usted es menor de edad.');
+    }
+    else{
+        document.write('<br> Usted es Mayor de edad');
+    }
+
+</script>
+    <!--En esta pagina vamos a solicitar informacion por pantalla que luego se impirmira el resultado en la pag.-->
+    <!--Se solicitará Nombre y Edad-->
+    
+</body>
+</html>

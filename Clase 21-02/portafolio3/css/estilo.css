@@ -1,0 +1,42 @@
+.contenedor {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  
+}
+
+
+@media (min-width: 370px ) {
+  .titulo {
+    text-align: center;
+  }
+  .contenedor{
+    width: auto;
+    margin-top: auto;
+  }
+}
+
+p {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+}
+
+.columna2 {
+  width: 700px;
+  float: left;
+  clear: both;
+}
+
+.aside {
+  width: 260px;
+  height: 100%;
+  float: left;
+  margin-left: 8px;
+}

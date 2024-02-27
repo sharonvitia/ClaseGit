@@ -1,0 +1,97 @@
+.contenedor {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.uno {
+    width: 260px;
+    float: left;
+}
+
+.dos {
+    width: 700px;
+    float: left;
+}
+
+.tres {
+    clear: both;
+}
+
+  
+@media (min-width: 960px) {
+  .titulo {
+    text-align: center;
+}
+}
+p{
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+
+}
+
+.columna2{
+width: 700px;
+}
+.aside{
+width: 260px;
+height: 100%;
+}
+/* Agrega tu estilo personalizado aquí */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.titulo {
+    margin-bottom: 30px;
+}
+
+.contenido {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenido h3 {
+    color: #007bff;
+}
+
+.columna {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la barra de navegación de Bootstrap */
+.navbar {
+    background-color: #343a40;
+}
+
+/* Cambiar el color de texto y fondo del botón de Bootstrap */
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+}
+.boton{
+    margin-top: center;
+    margin-bottom: 30px;
+
+}
